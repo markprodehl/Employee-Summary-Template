@@ -33,3 +33,92 @@ const render = require("./lib/htmlRenderer");
 // for further information. Be sure to test out each class and verify it generates an
 // object with the correct structure and methods. This structure will be crucial in order
 // for the provided `render` function to work! ```
+const managerQuestions = [{
+        type: "input",
+        name: "name",
+        message: "What is the manager's name?"
+    },
+    {
+        type: "input",
+        name: "id",
+        message: "What the manager's employee id?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is the manager's email?"
+    },
+    {
+        type: "input",
+        name: "officeNumber",
+        message: "What is the manager's office number?"
+    },
+    {
+        type: "list",
+        name: "member",
+        message: "Which team member would you like to add?",
+        choices: ["Intern", "Engineer"]
+    }
+]
+
+const engineerQuestions = [{
+        type: "input",
+        name: "name",
+        message: "What is the employee's name?"
+    },
+    {
+        type: "input",
+        name: "id",
+        message: "What is the employee's id?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is the employee's email?"
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "What is the employee's GitHub username?"
+    }
+];
+
+const internQuestions = [{
+        type: "input",
+        name: "name",
+        message: "What is the intern's name?"
+    },
+    {
+        type: "input",
+        name: "id",
+        message: "What is the intern's id?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is the intern's email?"
+    },
+    {
+        type: "input",
+        name: "school",
+        message: "What school is the intern attending?"
+    }
+];
+
+const moreMemberQuestion = [{
+    type: "list",
+    name: "additionalMember",
+    message: "Would you like to add another team member? If so, which kind?",
+    choices: ["Intern", "Engineer", "No more members."]
+}];
+
+inquirer
+// .prompt(managerQuestions)
+// .prompt(engineerQuestions)
+// .prompt(internQuestions)
+// .prompt(moreMemberQuestion)
+
+console.log(engineerQuestions)
+console.log(managerQuestions)
+console.log(internQuestions)
+console.log(moreMemberQuestion)
