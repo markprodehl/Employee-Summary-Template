@@ -19,9 +19,12 @@ const OFFICE_NUMBERS = []
     // This is a list of taken ID numbers
 const ID_NUMBERS = []
 
+//Questions can be found in './lib/Prompts'
+
+// used a start(). This is called again after all answers have been pushed.
 function start() {
     inquirer
-    // call prompts managerQ functiontion passing taken office #s
+    // call Prompts(from './lib/Prompts') managerQeston functiontion passing taken office #s
         .prompt(Prompts.managerQuestions(ID_NUMBERS, OFFICE_NUMBERS))
         .then(a => {
             EMPLOYEES.push(new Manager(a.name, a.id, a.email, a.officeNumber))
