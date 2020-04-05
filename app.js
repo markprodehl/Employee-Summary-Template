@@ -33,6 +33,7 @@ const render = require("./lib/htmlRenderer");
 // for further information. Be sure to test out each class and verify it generates an
 // object with the correct structure and methods. This structure will be crucial in order
 // for the provided `render` function to work! ```
+
 const managerQuestions = [{
         type: "input",
         name: "name",
@@ -113,10 +114,10 @@ const moreMemberQuestion = [{
 }];
 
 inquirer
-// .prompt(managerQuestions)
-// .prompt(engineerQuestions)
-// .prompt(internQuestions)
-// .prompt(moreMemberQuestion)
+    .prompt(managerQuestions)
+    // .prompt(engineerQuestions)
+    // .prompt(internQuestions)
+    // .prompt(moreMemberQuestion)
 
 // console.log(engineerQuestions)
 // console.log(managerQuestions)
