@@ -118,7 +118,7 @@ inquirer
 // .prompt(internQuestions)
 // .prompt(moreMemberQuestion)
 
-console.log(engineerQuestions)
-console.log(managerQuestions)
-console.log(internQuestions)
-console.log(moreMemberQuestion)
+// console.log(engineerQuestions)
+// console.log(managerQuestions)
+// console.log(internQuestions)
+// console.log(moreMemberQuestion)
