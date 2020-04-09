@@ -82,5 +82,4 @@ function SelectEmployeeType() {
             }
         })
 }
-
 start();
