@@ -28,7 +28,7 @@
             
  # Usage
             
- The Employee Summary Template can be used to create a chart of team memebers. The chart will clearly seperate employees based on whether they are a manager, engineer, or an intern.
+ The Employee Summary Template can be used to create a chart of team memebers. The chart will clearly seperate employees based on whether they are a manager, engineer, or an intern. Video demo here: https://1drv.ms/v/s!AvkX4tPbiTsRkboyriwcbWhF4i1sbg?e=DMB6xy
             
  # License
             
